@@ -11,9 +11,10 @@
 		CA47D23B1DBA9AE1006DEAF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA47D23A1DBA9AE1006DEAF5 /* ViewController.swift */; };
 		CA47D23E1DBA9AE1006DEAF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA47D23C1DBA9AE1006DEAF5 /* Main.storyboard */; };
 		CA47D2401DBA9AE1006DEAF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA47D23F1DBA9AE1006DEAF5 /* Assets.xcassets */; };
-		CA47D2431DBA9AE1006DEAF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA47D2411DBA9AE1006DEAF5 /* LaunchScreen.storyboard */; };
 		CA47D24E1DBA9AE1006DEAF5 /* RetroCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA47D24D1DBA9AE1006DEAF5 /* RetroCalculatorTests.swift */; };
 		CA47D2591DBA9AE1006DEAF5 /* RetroCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA47D2581DBA9AE1006DEAF5 /* RetroCalculatorUITests.swift */; };
+		CA5ECCF31DBABFFA00CD822F /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CA5ECCF21DBABFFA00CD822F /* Minecraft.ttf */; };
+		CA5ECCF51DBAC1B100CD822F /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA5ECCF41DBAC1B100CD822F /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,6 @@
 		CA47D23A1DBA9AE1006DEAF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CA47D23D1DBA9AE1006DEAF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CA47D23F1DBA9AE1006DEAF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CA47D2421DBA9AE1006DEAF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA47D2441DBA9AE1006DEAF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA47D2491DBA9AE1006DEAF5 /* RetroCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetroCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA47D24D1DBA9AE1006DEAF5 /* RetroCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetroCalculatorTests.swift; sourceTree = "<group>"; };
@@ -47,6 +47,8 @@
 		CA47D2541DBA9AE1006DEAF5 /* RetroCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetroCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA47D2581DBA9AE1006DEAF5 /* RetroCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetroCalculatorUITests.swift; sourceTree = "<group>"; };
 		CA47D25A1DBA9AE1006DEAF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA5ECCF21DBABFFA00CD822F /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
+		CA5ECCF41DBAC1B100CD822F /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +99,12 @@
 		CA47D2371DBA9AE1006DEAF5 /* RetroCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				CA5ECCF41DBAC1B100CD822F /* btn.wav */,
+				CA5ECCF21DBABFFA00CD822F /* Minecraft.ttf */,
 				CA47D2381DBA9AE1006DEAF5 /* AppDelegate.swift */,
 				CA47D23A1DBA9AE1006DEAF5 /* ViewController.swift */,
 				CA47D23C1DBA9AE1006DEAF5 /* Main.storyboard */,
 				CA47D23F1DBA9AE1006DEAF5 /* Assets.xcassets */,
-				CA47D2411DBA9AE1006DEAF5 /* LaunchScreen.storyboard */,
 				CA47D2441DBA9AE1006DEAF5 /* Info.plist */,
 			);
 			path = RetroCalculator;
@@ -204,7 +207,6 @@
 					};
 					CA47D2531DBA9AE1006DEAF5 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = Y3WB42XANW;
 						ProvisioningStyle = Automatic;
 						TestTargetID = CA47D2341DBA9AE1006DEAF5;
 					};
@@ -235,8 +237,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA47D2431DBA9AE1006DEAF5 /* LaunchScreen.storyboard in Resources */,
+				CA5ECCF51DBAC1B100CD822F /* btn.wav in Resources */,
 				CA47D2401DBA9AE1006DEAF5 /* Assets.xcassets in Resources */,
+				CA5ECCF31DBABFFA00CD822F /* Minecraft.ttf in Resources */,
 				CA47D23E1DBA9AE1006DEAF5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,14 +308,6 @@
 				CA47D23D1DBA9AE1006DEAF5 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		CA47D2411DBA9AE1006DEAF5 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CA47D2421DBA9AE1006DEAF5 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -471,7 +466,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = Y3WB42XANW;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = RetroCalculatorUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ZeahSoft.RetroCalculatorUITests;
@@ -485,7 +481,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = Y3WB42XANW;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = RetroCalculatorUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ZeahSoft.RetroCalculatorUITests;
@@ -514,6 +511,7 @@
 				CA47D25F1DBA9AE1006DEAF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA47D2601DBA9AE1006DEAF5 /* Build configuration list for PBXNativeTarget "RetroCalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +520,7 @@
 				CA47D2621DBA9AE1006DEAF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA47D2631DBA9AE1006DEAF5 /* Build configuration list for PBXNativeTarget "RetroCalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +529,7 @@
 				CA47D2651DBA9AE1006DEAF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
